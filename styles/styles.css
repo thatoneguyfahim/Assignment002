@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-color{
+    color: white;
+}
+.bg-color{
+    background-color: rgb(17, 17, 17);
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.fitness{
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-align: left;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.odd-link{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    margin: 0px 47px;
+    display: flex;
+    justify-content: center;
+    padding: 1px 20px 1px 20px;
+
+}
+.navlinks{
+    display: flex;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.banner1{
+    width: 520px;
+    margin: 0 auto;
+    text-wrap: wrap;
+}
+.banner-title{
+    color: white;
+}
+
+.odd-text{
+    color: white;
+
+}
+
+.buttons{
+    display: flex;
+    font-size: 1.25rem;
+}
+.button1{
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+}
+
+.button2{
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+}
+
+
+
+.banner-image{
+    width: 100%;
+}
+main{
+    max-width: 1440px;
+    margin: 80px 80px;
+}
+
+.habits-title{
+    align-items: center;
+    text-align: center;
+  
+}
+
+.habits-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.running-title{
+    text-align: center;
+    font-weight: 700;
+}
+.running-words{
+    text-align: center;
+    justify-content: center;
+    text-wrap: wrap;
+}
+.running-text{
+    justify-content: center;
+    align-items: center;
+}
+
+.running-img{
+    max-width: 50%;
+}
+.running{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.teammates-title{
+    text-align: center;
+    justify-content: center;
+}
+.teammates-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.timg{
+    max-width: 420px;
+    max-width: 240px;
+    object-fit:cover;
+    object-fit: fill;
+    gap: 20px;
+}
+
+.bmi{
+    margin: 30px 30px;
+}
+.bmi-title{
+    text-align: center;
+    justify-content: center;
+}
+.bmi1{
+    justify-content: center;
+    text-align: center;
+}
+.bmi-chart{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    border: 10px;
+    border-color: white;
+    border-radius: 5px;
+}
+.bmi-calcu{
+    justify-content: center;
+}
+.bmi-calcu-title{
+    justify-content: center;
+    text-align: center;
+    text-wrap: wrap;
+}
+.bmi-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) 2fr;
+}
+.fitness-end1{
+    align-items: center;
+    justify-content: center;
+}
+.get-started-links{
+    text-decoration: none;
+    list-style: none;
+}
+.fitness-end{
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar,
+    .banner,
+    .habits,
+    .habits-img,
+    .running,
+    .teammates-img,
+    .fitness-end{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .teammates-img{
+        margin-left: 20px;
+    }
+    .habits-img{
+        margin-left: 15px;
+    }
+}
