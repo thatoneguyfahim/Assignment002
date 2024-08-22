@@ -23,11 +23,14 @@
     font-weight: 800;
     font-size: 1.5rem;
     text-align: left;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
 .odd-link{
@@ -36,7 +39,8 @@
     margin: 0px 47px;
     display: flex;
     justify-content: center;
-    padding: 1px 20px 1px 20px;
+    padding: 1px 10px 1px 40px;
+    text-align: center;
 
 }
 .navlinks{
@@ -44,9 +48,11 @@
     text-decoration: none;
     margin-right: 30px;
 }
+
 .nav-link{
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 .nav-item{
     list-style: none;
@@ -70,7 +76,6 @@
 
 .odd-text{
     color: white;
-
 }
 
 .buttons{
@@ -108,10 +113,19 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-
+.round-img{
+    border-radius: 50%;
+}
+.habits-task{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    word-wrap: wrap;
+}
 .running-title{
     text-align: center;
-    font-weight: 700;
+    font-weight: 900;
 }
 .running-words{
     text-align: center;
@@ -130,6 +144,9 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    justify-content: space-between;
 }
 
 .teammates-title{
@@ -200,7 +217,8 @@ main{
     .habits-img,
     .running,
     .teammates-img,
-    .fitness-end{
+    .fitness-end,
+    .bmi{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
@@ -209,5 +227,9 @@ main{
     }
     .habits-img{
         margin-left: 15px;
+    }
+    .bmi{
+        justify-content: center;
+        margin: auto;
     }
 }
